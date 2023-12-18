@@ -1,0 +1,22 @@
+@import "./_variables";
+
+@mixin width__container {
+    margin: 0 auto;
+    max-width: 65%;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    @media screen and (max-width: $small) {
+        max-width: 90%;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+}
+
+@mixin with_background {
+    background-color: $backgroundColor;
+    padding: 40px 0px;
+}
+
+@mixin without_background {
+  padding: 40px 0px;
+}

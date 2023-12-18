@@ -1,0 +1,27 @@
+@import "../../styles/_mixins";
+@import "../../styles/_variables";
+
+.timeline{
+    &__position{
+        h3{
+            color: $timelineColor;
+        }
+        
+    }
+    
+    &__badges{
+        padding: 10px;
+        background-color: $badgeColor;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        display: inline-block;
+    }
+    &__list{
+        margin: 10px 0px 0px 30px;
+        ul{
+            li{
+                font-size: 15px;
+                
+            }
+        }
+    }
+}
